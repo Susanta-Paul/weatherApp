@@ -52,8 +52,10 @@ export default function SearchBar({ onSearch }) {
           placeholder="Enter city name..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="flex-1 px-4 py-2 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
+          onBlur={() => setTimeout(() => setSuggestions([]), 100)} // Hide after blur
+          className="flex-1 bg-gray-200 text-black font-bold px-4 py-2 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
         />
+
         <button
           type="submit"
           className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600 transition"
