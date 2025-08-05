@@ -30,7 +30,7 @@ Search any city to instantly see **current weather**, **dynamic backgrounds**, a
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/weather-info-app.git
+git clone https://github.com/Susanta-Paul/weatherApp.git
 ```
 
 ### 1 Install the dependencies
