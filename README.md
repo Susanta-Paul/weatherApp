@@ -33,19 +33,22 @@ Search any city to instantly see **current weather**, **dynamic backgrounds**, a
 git clone https://github.com/your-username/weather-info-app.git
 ```
 
-### 1️⃣ Install the dependencies
+### 1 Install the dependencies
 ```bash
 npm install
 ```
 
-### 1️⃣ Set the environment variables(.env file)
+### 2 Set the environment variables(.env file)
 ```bash
 VITE_OPENWEATHER_API=your_api_key_here
 ```
-### 1️⃣ Run the app
+### 3 Run the app
 ```bash
 npm run dev
 ```
 
+###  Live app link 
+
+https://susanta-weatherapp-guvi.netlify.app/
 
 
